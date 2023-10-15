@@ -58,7 +58,7 @@ html,body{
  }
 
  .blackButton {
-  @apply cursor-pointer rounded-md bg-richblack-800 px-[20px] py-[8px] font-semibold text-richblack-5;
+  @apply cursor-pointer rounded-md bg-richblack-600 px-[20px] py-[8px] font-semibold text-richblack-5;
 }
 .lable-style {
   @apply text-[14px] text-richblack-100;
