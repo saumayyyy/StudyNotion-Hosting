@@ -84,7 +84,7 @@ function CourseDetailsCard({ course, setConfirmationModal, handleBuyCourse }) {
                 : ("Buy Now")}
             </button>
             {(!user || !course?.studentsEnrolled.includes(user?._id)) && (
-              <button onClick={handleAddToCart} className="blackButton bg-richblack-800">
+              <button onClick={handleAddToCart} className="cursor-pointer rounded-md bg-richblack-800 px-[20px] py-[8px] font-semibold text-richblack-5">
                 Add to Cart
               </button>
             )}
